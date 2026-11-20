@@ -1,0 +1,282 @@
+{
+  "passed": true,
+  "browser": "Chrome/157.0.8103.79",
+  "hashMethod": "SHA-256 of native panel canvas RGBA bytes, before typography",
+  "panels": {
+    "landscape": [
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fit",
+          "zoom": 1.05,
+          "focusX": 0.5,
+          "focusY": 0.5
+        },
+        "width": 1276,
+        "height": 716,
+        "sha256": "e1f43c1e88b59004f6c6a7afce38fcd0c80e0801604e0dc922f7b20d75e9fdd7"
+      },
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fill",
+          "zoom": 2.4,
+          "focusX": 0.56,
+          "focusY": 0.22
+        },
+        "width": 632,
+        "height": 352,
+        "sha256": "c86d6278a4bfecc9d278a0bc2c805c1fa91103685361cc17bf003c076c506dce"
+      },
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fill",
+          "zoom": 1.65,
+          "focusX": 0.28,
+          "focusY": 0.73
+        },
+        "width": 632,
+        "height": 352,
+        "sha256": "383dd1571ca8b259c2b68b89d7d2bfa8ee0aa99738cb1a0191df6b6e0145ceed"
+      },
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fit",
+          "zoom": 1.16,
+          "focusX": 0.7,
+          "focusY": 0.55
+        },
+        "width": 632,
+        "height": 352,
+        "sha256": "0cbc3509439b5aef985f30711eea0028b5551b0dd55d9ec83c24921426a2b1e1"
+      },
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fill",
+          "zoom": 2.8,
+          "focusX": 0.63,
+          "focusY": 0.28
+        },
+        "width": 632,
+        "height": 352,
+        "sha256": "b11baba55ea42370f339372319619e01ed4f1b6c42a98b4cb32fbf76a869ea8a"
+      },
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fill",
+          "zoom": 1.9,
+          "focusX": 0.78,
+          "focusY": 0.82
+        },
+        "width": 632,
+        "height": 352,
+        "sha256": "9d5e79413ef359782c985faafdc755c82cc74c79c3eab42190181dea0e9b8d43"
+      }
+    ],
+    "portrait": [
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fit",
+          "zoom": 1.05,
+          "focusX": 0.5,
+          "focusY": 0.5
+        },
+        "width": 1080,
+        "height": 518,
+        "sha256": "48306dc343749170c2c6d85dfdf92940427c2c95b649d6d7c6b8d5e65ab51eab"
+      },
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fill",
+          "zoom": 2.4,
+          "focusX": 0.56,
+          "focusY": 0.22
+        },
+        "width": 534,
+        "height": 253,
+        "sha256": "7691eb678ae239a0a83100d3a040bd72d5629de93b955fe92b8109765aed0887"
+      },
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fill",
+          "zoom": 1.65,
+          "focusX": 0.28,
+          "focusY": 0.73
+        },
+        "width": 534,
+        "height": 253,
+        "sha256": "5ac3d16f025f96f33e5988a520efbacaef668b57a673a9f8bacd6a505b8de16f"
+      },
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fit",
+          "zoom": 1.16,
+          "focusX": 0.7,
+          "focusY": 0.55
+        },
+        "width": 1080,
+        "height": 291,
+        "sha256": "8dccd5cce1ce2aef85e7ec63dd58a69604371d164fc3a525f6bbe9f666da4d39"
+      },
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fill",
+          "zoom": 2.8,
+          "focusX": 0.63,
+          "focusY": 0.28
+        },
+        "width": 534,
+        "height": 253,
+        "sha256": "16809d1d2a750ad4f527e6aeaf36a021770b5e68c1c15d641106f2723c5261a8"
+      },
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fill",
+          "zoom": 1.9,
+          "focusX": 0.78,
+          "focusY": 0.82
+        },
+        "width": 534,
+        "height": 253,
+        "sha256": "553eb866d628244010fe8965411b2fa88455d580a4943b858235361fc9fea62a"
+      }
+    ],
+    "square": [
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fit",
+          "zoom": 1.05,
+          "focusX": 0.5,
+          "focusY": 0.5
+        },
+        "width": 716,
+        "height": 716,
+        "sha256": "e0e2ddda87fbcf2ae0e1350ab597a1800dc80f90ae5b329b4bee81325ad5c71f"
+      },
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fill",
+          "zoom": 2.4,
+          "focusX": 0.56,
+          "focusY": 0.22
+        },
+        "width": 352,
+        "height": 352,
+        "sha256": "86581c4b7f5963cf61a9251cc287bdacc2814441c2a11ed97d139696680b2042"
+      },
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fill",
+          "zoom": 1.65,
+          "focusX": 0.28,
+          "focusY": 0.73
+        },
+        "width": 352,
+        "height": 352,
+        "sha256": "4a2acf7014f1302992d6d0af6b714d13105aa6044b0053dcc687c7d32f09be4f"
+      },
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fit",
+          "zoom": 1.16,
+          "focusX": 0.7,
+          "focusY": 0.55
+        },
+        "width": 352,
+        "height": 352,
+        "sha256": "b0e0361e172327e013aea6282fbee796712fdd0ba2a07f841cf660cbea2b02c2"
+      },
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fill",
+          "zoom": 2.8,
+          "focusX": 0.63,
+          "focusY": 0.28
+        },
+        "width": 352,
+        "height": 352,
+        "sha256": "96eaf3cb8a18195da243de15de0b69d762ab7e9f5782977ca8c3969b69b5a2c3"
+      },
+      {
+        "crop": {
+          "photoId": "photo-0001",
+          "mode": "fill",
+          "zoom": 1.9,
+          "focusX": 0.78,
+          "focusY": 0.82
+        },
+        "width": 352,
+        "height": 352,
+        "sha256": "0471eb04254d0bfd0bf8a25e6a15be92f26b0b4cec95f4b351d15cdb946f6a3b"
+      }
+    ]
+  },
+  "export": {
+    "file": "step-6-variety-landscape.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 1976455,
+    "sha256": "db93e7defad05059836fe1bdb04e7e0c8c6a567162077a783ba4acb5fc658f78",
+    "panelHashMethod": "SHA-256 of RGBA bytes extracted from each saved PNG panel region, including typography",
+    "panels": [
+      {
+        "x": 0,
+        "y": 0,
+        "width": 1276,
+        "height": 716,
+        "sha256": "95bfd2a0fa3ddadaa918ecbafb4da0db48b4b3017190ee7f00819d029a084d5e"
+      },
+      {
+        "x": 1288,
+        "y": 0,
+        "width": 632,
+        "height": 352,
+        "sha256": "733353a7718c0416073909ed6c7484b76c5f5d8cfaef2494bf71097c15660932"
+      },
+      {
+        "x": 1288,
+        "y": 364,
+        "width": 632,
+        "height": 352,
+        "sha256": "e20167ef162510a71537818fb63da1f80d15fae2f3d1687531acbe1e2ca69f30"
+      },
+      {
+        "x": 0,
+        "y": 728,
+        "width": 632,
+        "height": 352,
+        "sha256": "70b0d8f220d3847630f9708d880050120d8cb3d7db4fce2f164e8b78ddfc1f60"
+      },
+      {
+        "x": 644,
+        "y": 728,
+        "width": 632,
+        "height": 352,
+        "sha256": "198ecba069b9488872576836b9c44cc0f003108a5e1ca7d6af2f5d54f763dd73"
+      },
+      {
+        "x": 1288,
+        "y": 728,
+        "width": 632,
+        "height": 352,
+        "sha256": "3c47ae67ad9ece8ad14afe0f6690ef5fd02bcc81081975588e579c5d531f5d1b"
+      }
+    ]
+  },
+  "errors": []
+}

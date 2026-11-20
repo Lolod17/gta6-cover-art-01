@@ -1,0 +1,74 @@
+{
+  "screenshots": [
+    {
+      "name": "1-key-art.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 720,
+      "bytes": 252047,
+      "sha256": "63a8c685331d7b6ece91124fb797d3d78dd42d2332d616eb2061d5747eeb6142"
+    },
+    {
+      "name": "2-editor.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 800,
+      "bytes": 187717,
+      "sha256": "5348abdada7e0a9d96ffa82f60e6aca14ba8e1cb3852b768527503b361aab9f0"
+    },
+    {
+      "name": "3-portrait.jpg",
+      "format": "jpeg",
+      "width": 1024,
+      "height": 1280,
+      "bytes": 250684,
+      "sha256": "41f16df631fdfed7a206be4b7d7cd9c0a490ef5adb753d5bec922db93276b9a5"
+    },
+    {
+      "name": "4-square.jpg",
+      "format": "jpeg",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 236301,
+      "sha256": "b45b9588e81d9b0bfdcc8577b07ced04befd21506e6b798a6ab2cd7f137e25ff"
+    }
+  ],
+  "exports": [
+    {
+      "name": "after-hours-landscape.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 2622886,
+      "sha256": "4fc646e944fbc4f0b46d38539996d2102fbca17c3ef307da4ab9c2f7007003dd"
+    },
+    {
+      "name": "after-hours-portrait.png",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 1885151,
+      "sha256": "2eb5ea4e5e4af8e6c96f3d621f73f9ce66836f4828c66d6bcc958390ec2cef0c"
+    },
+    {
+      "name": "after-hours-square.png",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 1483464,
+      "sha256": "a3ec4378838adb27c0e32e9df8400db73173a66e4c44b8aa4bb2ba810af09639"
+    }
+  ],
+  "browser": "Chrome/157.0.8103.79",
+  "errors": [],
+  "requests": [
+    "http://localhost:8082/",
+    "http://localhost:8082/style.css",
+    "http://localhost:8082/src/main.js",
+    "http://localhost:8082/src/photo-pipeline.js",
+    "http://localhost:8082/src/cinematic-grade.js",
+    "http://localhost:8082/src/poster-typography.js",
+    "http://localhost:8082/src/cover-export.js",
+    "http://localhost:8082/fonts/Oswald.ttf",
+    "http://localhost:8082/fonts/PlayfairDisplay.ttf",
+    "http://localhost:8082/fonts/InstrumentSerif-Italic.ttf",
+    "http://localhost:8082/fonts/RobotoMono.ttf"
+  ]
+}

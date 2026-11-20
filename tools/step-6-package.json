@@ -1,0 +1,119 @@
+{
+  "output": "/var/folders/qn/xwy5j1td2z5fdt1fxgt44p9h0000gn/T/opencode/scene06-package-sRFVDD/first",
+  "repeatOutput": "/var/folders/qn/xwy5j1td2z5fdt1fxgt44p9h0000gn/T/opencode/scene06-package-sRFVDD/second",
+  "identicalRuns": true,
+  "appUnchanged": true,
+  "outputEntries": 29,
+  "outputBytes": 3189495,
+  "dossierBytes": 1318692,
+  "dossierSha256": "e4f64d7baa4216aca395332651a887eb4eef08716f9a0940e6eb7c9a0fd1d21f",
+  "appManifest": [
+    {
+      "path": "fonts/",
+      "bytes": 0
+    },
+    {
+      "path": "fonts/InstrumentSerif-Italic.ttf",
+      "bytes": 71592,
+      "sha256": "08939b8bdf534afec24ae0ef5e03f948940cd9a8fe08e7fecbad040e62327385"
+    },
+    {
+      "path": "fonts/InstrumentSerif-OFL.txt",
+      "bytes": 4405,
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521"
+    },
+    {
+      "path": "fonts/Oswald-OFL.txt",
+      "bytes": 4483,
+      "sha256": "0fd731a904b729a4e02eaf5e8ebd06783edd9abe400e8882760160230675b652"
+    },
+    {
+      "path": "fonts/Oswald.ttf",
+      "bytes": 172088,
+      "sha256": "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817"
+    },
+    {
+      "path": "fonts/PlayfairDisplay-OFL.txt",
+      "bytes": 4449,
+      "sha256": "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e"
+    },
+    {
+      "path": "fonts/PlayfairDisplay.ttf",
+      "bytes": 300724,
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6"
+    },
+    {
+      "path": "fonts/RobotoMono-OFL.txt",
+      "bytes": 4395,
+      "sha256": "50ab8dd54680d3473f649c9db86fece88434d097c7834475c1c72d2f8c429215"
+    },
+    {
+      "path": "fonts/RobotoMono.ttf",
+      "bytes": 183700,
+      "sha256": "66a80e79d17e4c7cabd162e2916578a4cc08fd19eef6e2a643305eae9c567b2b"
+    },
+    {
+      "path": "index.html",
+      "bytes": 9701,
+      "sha256": "5936ed7c71d2666609a0d900116ca0ef5d33726746be8ad930c3b7203be4ab42"
+    },
+    {
+      "path": "samples/",
+      "bytes": 0
+    },
+    {
+      "path": "samples/boulevard.jpg",
+      "bytes": 58675,
+      "sha256": "2e1f1b1ea9735e598cc9d4831c4e30a8814b8b1aaa0e8cb0aa51e007e80d6595"
+    },
+    {
+      "path": "samples/pier.jpg",
+      "bytes": 59923,
+      "sha256": "ea7e826faa17d19518b727c858d910d407ac9f255ae2ab50c0f5df40b4319450"
+    },
+    {
+      "path": "src/",
+      "bytes": 0
+    },
+    {
+      "path": "src/cinematic-grade.js",
+      "bytes": 5071,
+      "sha256": "93632c528f5cfd68752629719922d9e258f62bd53330e8409ea6f3870cd7d514"
+    },
+    {
+      "path": "src/cover-export.js",
+      "bytes": 5600,
+      "sha256": "07bd962700e95567224d14e8f917b12f543a86d2c47a04748c697493edf957fe"
+    },
+    {
+      "path": "src/cover.js",
+      "bytes": 1360,
+      "sha256": "939db604591294ab8be86bd96998b65c1ce50f3b21bac092cd100071799309c4"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 17140,
+      "sha256": "c33e329abf2ffaf13027204a84381b2dc857318c1dc0f71b9d460dee78801c1d"
+    },
+    {
+      "path": "src/photo-pipeline.js",
+      "bytes": 4355,
+      "sha256": "9e8db9df5507dadb7167006df387be4040866f3ce70a5bdc90e5e653326ab36b"
+    },
+    {
+      "path": "src/poster-typography.js",
+      "bytes": 15983,
+      "sha256": "9607708982373b1beb4df93235cf2f635472b07caa50f0b6c706bf9e7c9c555f"
+    },
+    {
+      "path": "src/shots.js",
+      "bytes": 545,
+      "sha256": "adffea503cc2b2786b6deef82a1e4b4ce8bfcab8551cb0a79d124d87fe57d95b"
+    },
+    {
+      "path": "style.css",
+      "bytes": 19865,
+      "sha256": "89f3d3194a818a1cd5b1d0d2eb12279e7cdc5cd79d0e137751436281c0ab6d34"
+    }
+  ]
+}

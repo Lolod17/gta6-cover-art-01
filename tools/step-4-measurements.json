@@ -1,0 +1,67 @@
+{
+  "browser": "Chrome/157.0.8103.79",
+  "geometry": [
+    {
+      "layout": "landscape",
+      "width": 720,
+      "height": 405,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "layout": "portrait",
+      "width": 328,
+      "height": 410,
+      "outside": [],
+      "overflow": false
+    },
+    {
+      "layout": "square",
+      "width": 410,
+      "height": 410,
+      "outside": [],
+      "overflow": false
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "step-4-landscape-editor.png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 484903
+    },
+    {
+      "file": "step-4-portrait-editor.png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 279557
+    },
+    {
+      "file": "step-4-square-editor.png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 369645
+    },
+    {
+      "file": "step-4-billing-editor.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 380514
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "http://localhost:8082/",
+    "http://localhost:8082/style.css",
+    "http://localhost:8082/src/main.js",
+    "http://localhost:8082/src/photo-pipeline.js",
+    "http://localhost:8082/src/cinematic-grade.js",
+    "http://localhost:8082/src/poster-typography.js",
+    "http://localhost:8082/src/cover-export.js",
+    "http://localhost:8082/fonts/Oswald.ttf",
+    "http://localhost:8082/fonts/PlayfairDisplay.ttf",
+    "http://localhost:8082/fonts/InstrumentSerif-Italic.ttf",
+    "http://localhost:8082/fonts/RobotoMono.ttf",
+    "data: (local photo thumbnail)"
+  ]
+}

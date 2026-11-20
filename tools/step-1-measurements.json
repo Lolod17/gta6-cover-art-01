@@ -1,0 +1,203 @@
+{
+  "browser": "Chrome/157.0.8103.79",
+  "results": [
+    {
+      "layout": "landscape",
+      "width": 586.65625,
+      "height": 329.984375,
+      "gap": 3.6666,
+      "panels": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 389.875,
+          "height": 218.765625
+        },
+        {
+          "x": 393.53125,
+          "y": 0,
+          "width": 193.109375,
+          "height": 107.546875
+        },
+        {
+          "x": 393.53125,
+          "y": 111.203125,
+          "width": 193.109375,
+          "height": 107.5625
+        },
+        {
+          "x": 0,
+          "y": 222.421875,
+          "width": 193.109375,
+          "height": 107.546875
+        },
+        {
+          "x": 196.765625,
+          "y": 222.421875,
+          "width": 193.109375,
+          "height": 107.546875
+        },
+        {
+          "x": 393.53125,
+          "y": 222.421875,
+          "width": 193.109375,
+          "height": 107.546875
+        }
+      ],
+      "selectedButtons": 1,
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "document": {
+        "width": 1280,
+        "height": 720
+      },
+      "imageCount": 0,
+      "nativeGutter": 11.99999488627284,
+      "screenshot": {
+        "file": "step-1-landscape-1280x720.png",
+        "bytes": 182961,
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "layout": "portrait",
+      "width": 264,
+      "height": 330,
+      "gap": 2.93333,
+      "panels": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 264,
+          "height": 126.53125
+        },
+        {
+          "x": 0,
+          "y": 129.453125,
+          "width": 130.53125,
+          "height": 61.8125
+        },
+        {
+          "x": 133.453125,
+          "y": 129.453125,
+          "width": 130.546875,
+          "height": 61.8125
+        },
+        {
+          "x": 0,
+          "y": 194.1875,
+          "width": 264,
+          "height": 71.078125
+        },
+        {
+          "x": 0,
+          "y": 268.1875,
+          "width": 130.53125,
+          "height": 61.796875
+        },
+        {
+          "x": 133.453125,
+          "y": 268.1875,
+          "width": 130.546875,
+          "height": 61.796875
+        }
+      ],
+      "selectedButtons": 1,
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "document": {
+        "width": 1280,
+        "height": 720
+      },
+      "imageCount": 0,
+      "nativeGutter": 11.999986363636365,
+      "screenshot": {
+        "file": "step-1-portrait-1280x720.png",
+        "bytes": 146018,
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "layout": "square",
+      "width": 330,
+      "height": 330,
+      "gap": 3.66667,
+      "panels": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 218.78125,
+          "height": 218.78125
+        },
+        {
+          "x": 222.4375,
+          "y": 0,
+          "width": 107.5625,
+          "height": 107.5625
+        },
+        {
+          "x": 222.4375,
+          "y": 111.21875,
+          "width": 107.5625,
+          "height": 107.5625
+        },
+        {
+          "x": 0,
+          "y": 222.4375,
+          "width": 107.5625,
+          "height": 107.5625
+        },
+        {
+          "x": 111.21875,
+          "y": 222.4375,
+          "width": 107.5625,
+          "height": 107.5625
+        },
+        {
+          "x": 222.4375,
+          "y": 222.4375,
+          "width": 107.5625,
+          "height": 107.5625
+        }
+      ],
+      "selectedButtons": 1,
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "document": {
+        "width": 1280,
+        "height": 720
+      },
+      "imageCount": 0,
+      "nativeGutter": 12.000010909090907,
+      "screenshot": {
+        "file": "step-1-square-1280x720.png",
+        "bytes": 161527,
+        "width": 1280,
+        "height": 720
+      }
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "http://localhost:8082/",
+    "http://localhost:8082/style.css",
+    "http://localhost:8082/src/main.js",
+    "http://localhost:8082/src/photo-pipeline.js",
+    "http://localhost:8082/src/cinematic-grade.js",
+    "http://localhost:8082/src/poster-typography.js",
+    "http://localhost:8082/src/cover-export.js",
+    "http://localhost:8082/fonts/Oswald.ttf",
+    "http://localhost:8082/fonts/PlayfairDisplay.ttf",
+    "http://localhost:8082/fonts/InstrumentSerif-Italic.ttf",
+    "http://localhost:8082/fonts/RobotoMono.ttf",
+    "data: (embedded poster band)"
+  ]
+}

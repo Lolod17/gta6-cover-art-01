@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0B0D13">
+  <title>Scene / 06 — Cover Studio</title>
+  <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="studio-header">
+    <a class="wordmark" href="./" aria-label="Scene 06 home">SCENE<span>/</span>06<span class="wordmark-label">COVER STUDIO</span></a>
+    <div class="project-name">UNTITLED PROJECT <span class="project-divider">/</span> <span>ISSUE 001</span></div>
+    <span class="offline-label"><span class="status-dot"></span> LOCAL BY DESIGN</span>
+  </header>
+
+  <main class="studio-shell">
+    <aside class="layout-library" aria-labelledby="layout-heading">
+      <div class="section-kicker">01 / COMPOSITION</div>
+      <h1 id="layout-heading">Set the scene.</h1>
+      <p class="section-description">Three formats. One visual language.<br>Start with the shape of your story.</p>
+      <div class="layout-options" role="group" aria-label="Cover layout">
+        <button class="layout-option" type="button" data-layout="landscape" aria-pressed="true">
+          <span class="layout-thumbnail" data-thumbnail="landscape" aria-hidden="true"></span>
+          <span class="layout-copy"><strong>Hero + Grid</strong><span>1920 × 1080 <span class="ratio-label">16:9</span></span></span>
+          <span class="selection-mark" aria-hidden="true">↗</span>
+        </button>
+        <button class="layout-option" type="button" data-layout="portrait" aria-pressed="false">
+          <span class="layout-thumbnail" data-thumbnail="portrait" aria-hidden="true"></span>
+          <span class="layout-copy"><strong>Portrait Stack</strong><span>1080 × 1350 <span class="ratio-label">4:5</span></span></span>
+          <span class="selection-mark" aria-hidden="true">↗</span>
+        </button>
+        <button class="layout-option" type="button" data-layout="square" aria-pressed="false">
+          <span class="layout-thumbnail" data-thumbnail="square" aria-hidden="true"></span>
+          <span class="layout-copy"><strong>Square Mosaic</strong><span>1080 × 1080 <span class="ratio-label">1:1</span></span></span>
+          <span class="selection-mark" aria-hidden="true">↗</span>
+        </button>
+      </div>
+      <section class="photo-library" aria-labelledby="photos-heading">
+        <h2 id="photos-heading" class="section-kicker">02 / YOUR PHOTOS <span id="photo-count">0</span></h2>
+        <button id="add-photos" class="photo-dropzone" type="button"><strong>+ Add photos</strong><span>or drop files anywhere · stays on this device</span></button>
+        <input id="photo-files" type="file" accept="image/jpeg,image/png,image/webp,image/avif,image/gif,image/bmp" multiple hidden>
+        <div id="photo-list" class="photo-list" role="group" aria-label="Photo library"><span class="library-empty">Select a panel, then choose its photo.</span></div>
+        <p id="photo-status" class="photo-status" role="status" aria-live="polite">JPEG, PNG, WebP, AVIF, GIF or BMP.</p>
+      </section>
+      <div class="palette-note" aria-label="Palette: ink, paper, warm amber, magenta"><span class="swatch swatch-ink"></span><span class="swatch swatch-paper"></span><span class="swatch swatch-amber"></span><span class="swatch swatch-magenta"></span><span>STUDIO PALETTE</span></div>
+    </aside>
+
+    <section class="workspace" aria-labelledby="preview-heading">
+      <div class="workspace-toolbar">
+        <div><span class="section-kicker">LAYOUT PREVIEW</span><h2 id="preview-heading">Hero + Grid <span id="preview-ratio">/ 16:9</span></h2></div>
+        <label class="grade-picker section-kicker">COVER GRADE
+          <select id="cinematic-grade">
+            <option value="dusk-amber">Dusk Amber</option>
+            <option value="night-neon">Night Neon</option>
+            <option value="daylight-fade">Daylight Fade</option>
+          </select>
+        </label>
+      </div>
+      <div class="preview-stage">
+        <div class="preview-frame" id="preview-frame" data-layout="landscape" style="--cover-ratio: 16 / 9">
+          <div class="cover-grid layout-landscape" id="cover-grid" role="group" aria-label="Hero + Grid: six photo panels in a 16:9 composition"></div>
+          <svg id="poster-type" class="poster-type" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Live poster typography"></svg>
+        </div>
+      </div>
+      <div class="preview-details">
+        <span class="preview-panel-count"><span class="detail-dot"></span> <span id="panel-count">06 PANELS</span></span>
+        <span id="cover-dimensions">1920 × 1080 PX</span>
+        <div class="export-actions" role="group" aria-label="PNG downloads">
+          <button id="export-cover" class="quiet-button export-primary" type="button" disabled>Export PNG</button>
+          <button id="export-sheet" class="quiet-button" type="button" disabled>Contact sheet</button>
+          <span id="export-status" role="status"></span>
+        </div>
+      </div>
+      <section class="crop-inspector" aria-label="Selected panel photo and crop">
+        <div class="crop-assignment">
+          <label>Panel<select id="active-panel" aria-label="Active panel"></select></label>
+          <label class="photo-assignment">Photo<select id="panel-photo" aria-label="Photo for selected panel"><option value="">No photo</option></select></label>
+          <div class="crop-mode" role="group" aria-label="Photo sizing"><button id="mode-fill" type="button" aria-pressed="true">Fill</button><button id="mode-fit" type="button" aria-pressed="false">Fit</button></div>
+          <button id="reset-crop" class="quiet-button" type="button">Reset crop</button>
+        </div>
+        <div class="crop-adjustments">
+          <label>Zoom <output id="zoom-value" for="crop-zoom">1.00×</output><input id="crop-zoom" aria-label="Panel zoom" type="range" min="1" max="4" step="0.01" value="1"></label>
+          <label>Focus X <output id="focus-x-value" for="focus-x">50%</output><input id="focus-x" aria-label="Focus X" type="range" min="0" max="100" step="0.1" value="50"></label>
+          <label>Focus Y <output id="focus-y-value" for="focus-y">50%</output><input id="focus-y" aria-label="Focus Y" type="range" min="0" max="100" step="0.1" value="50"></label>
+          <button id="assign-all" class="quiet-button" type="button">Fill all panels</button>
+        </div>
+        <p class="crop-help">Drag to reposition <span>·</span> Wheel to zoom <span>·</span> Shift-click to set focus <span>·</span> Each format keeps its own crops.</p>
+      </section>
+    </section>
+    <aside class="type-inspector" aria-labelledby="type-heading">
+      <div class="section-kicker">03 / TYPOGRAPHY</div>
+      <h2 id="type-heading">Give it a story.</h2>
+      <p class="type-intro">Every word is yours. Edits appear on the cover as you type.</p>
+      <div class="type-fields">
+        <label>Display title <span>Two lines maximum</span><textarea id="type-title" rows="2" maxlength="64" spellcheck="false"></textarea></label>
+        <label>Editorial subtitle<input id="type-subtitle" maxlength="90"></label>
+        <label>Subtitle style<select id="type-subtitle-style"><option value="editorial">Editorial serif</option><option value="script">Script (secondary)</option></select></label>
+        <label>Tagline<input id="type-tagline" maxlength="110"></label>
+      </div>
+      <details class="type-section" open>
+        <summary>Panel caption <span id="caption-panel-name">HERO / 01</span></summary>
+        <p class="type-intro">Select a photo panel or use the Panel menu.</p>
+        <label>Timecode<input id="type-timecode" maxlength="20"></label>
+        <label>Caption<input id="type-caption" maxlength="80"></label>
+      </details>
+      <details class="type-section">
+        <summary>Billing & release <span>5 LINES + SLUGS</span></summary>
+        <label>1 / Presenting studio<input id="type-billing-0" maxlength="130"></label>
+        <label>2 / Production & title<input id="type-billing-1" maxlength="130"></label>
+        <label>3 / Principal cast<input id="type-billing-2" maxlength="130"></label>
+        <label>4 / Creative departments<input id="type-billing-3" maxlength="180"></label>
+        <label>5 / Writer & director<input id="type-billing-4" maxlength="130"></label>
+        <label>Festival line<input id="type-festival" maxlength="100"></label>
+        <div class="type-field-pair">
+          <label>Rating<input id="type-rating" maxlength="8"></label>
+          <label>Issue number<input id="type-issue" maxlength="24"></label>
+        </div>
+        <label>Rating descriptor<input id="type-rating-note" maxlength="80"></label>
+        <label>Release strip<input id="type-release" maxlength="70"></label>
+      </details>
+      <details class="type-section">
+        <summary>Pull quote & seal <span>STARS + STAMP</span></summary>
+        <label>Pull quote<input id="type-quote" maxlength="120"></label>
+        <label>Seal rim text<input id="type-seal" maxlength="40"></label>
+        <p class="type-intro">The five-star quote sits below the photo captions. The footer seal uses the issue number from Billing; the skyline follows the release strip.</p>
+      </details>
+      <p class="type-footnote">Local fonts · automatic type fitting<br>Blank fields hide their text.</p>
+    </aside>
+  </main>
+  <footer class="studio-footer"><span>SCENE / 06 <span class="footer-divider">—</span> AN INDEPENDENT COVER STUDIO</span><span>PHOTO STUDY <span class="footer-divider">/</span> V.02</span></footer>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
